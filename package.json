@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node ./src/app/base-baileys-json/page.js",
+    "start": "next start node ./src/app/base-baileys-json/page.js",
     "lint": "next lint"
   },
   "dependencies": {
